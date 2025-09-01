@@ -1,12 +1,12 @@
-import type { OdFileObject } from '../../types'
+/// <reference types="plyr" />
 
+import type { OdFileObject } from '../../types'
 import { FC, useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import PlyrComponent from 'plyr-react'
-import type Plyr from 'plyr'
 import { useAsync } from 'react-async-hook'
 import { useClipboard } from 'use-clipboard-copy'
 
